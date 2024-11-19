@@ -126,3 +126,10 @@ Matplotlib created a temporary cache directory at /tmp/matplotlib-iv7ea3d2 becau
 Matplotlib created a temporary cache directory at /tmp/matplotlib-1d67qllx because the default path (/path/to/your/writable/directory) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
 Matplotlib created a temporary cache directory at /tmp/matplotlib-a3n4686x because the default path (/path/to/your/writable/directory) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
 Matplotlib created a temporary cache directory at /tmp/matplotlib-8ekgqpxy because the default path (/path/to/your/writable/directory) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+slurmstepd: error: Detected 1 oom-kill event(s) in StepId=8101505.0. Some of your processes may have been killed by the cgroup out-of-memory handler.
+srun: error: nid004877: task 53: Out Of Memory
+srun: launch/slurm: _step_signal: Terminating StepId=8101505.0
+slurmstepd: error: *** STEP 8101505.0 ON nid004877 CANCELLED AT 2024-11-19T14:45:32 ***
+This script is runningRunning on: nid004877
+python3 pi-mpi.py
+This script finished.
